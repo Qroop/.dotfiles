@@ -1,0 +1,13 @@
+[user]
+	name = jeswa278
+	email = jeswa278@student.liu.se
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[core]
+    excludesFile = "~/.gitignore"
+[init]
+    defaultBranch = "main"
