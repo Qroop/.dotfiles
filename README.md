@@ -10,7 +10,7 @@ Requirements:
 - nvim
 - alacritty
 - oh-my-zsh
-  - git
+	- git
 	- zsh-autosuggestions
 	- zsh-syntax-highlighting
 	- you-should-use
