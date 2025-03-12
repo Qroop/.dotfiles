@@ -1,0 +1,17 @@
+general.import = [
+  "~/.config/alacritty/catppuccin-mocha.toml"
+]
+
+[font]
+size = 15.0
+
+[font.normal]
+family = "Mononoki Nerd Font Mono"
+style = "Regular"
+
+[window]
+opacity = 0.9
+dynamic_title = true
+
+[env]
+TERM = "xterm-256color"
