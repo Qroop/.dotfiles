@@ -8,7 +8,7 @@ Requirements:
 - stow
 - xclip
 - nvim
-- alacritty
+- alacritty or kitty
 - oh-my-zsh
 	- git
 	- zsh-autosuggestions
