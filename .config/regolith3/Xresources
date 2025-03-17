@@ -1,3 +1,3 @@
-regolith.wallpaper.file: /home/jesper/.local/share/backgrounds/2025-03-16-21-11-54-wallpaper.jpg
-regolith.lockscreen.wallpaper.file: /home/jesper/.local/share/backgrounds/2025-03-16-21-11-54-wallpaper.jpg
+regolith.wallpaper.file: ~/.config/pics/wallpaper.jpg
+regolith.lockscreen.wallpaper.file: ~/.config/pics/wallpaper.jpg
 i3rocks.date.format2: %Y-%m-%d %H:%M
