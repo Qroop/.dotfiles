@@ -7,6 +7,7 @@ Requirements:
 - universal-ctags
 - stow
 - xclip
+- bat
 - nvim
 - alacritty or kitty
 - oh-my-zsh
