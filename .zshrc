@@ -122,7 +122,7 @@ if [[ -f ~/.alias ]]; then
 fi
 
 if [[ -f ~/.paths ]]; then
-  . ~/.alias
+  . ~/.paths
 fi
 
 
