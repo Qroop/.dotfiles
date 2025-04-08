@@ -15,3 +15,4 @@ Requirements:
 	- zsh-autosuggestions
 	- zsh-syntax-highlighting
 	- you-should-use
+- [Swedish coder keyboard layout](https://github.com/robertrosman/Swedish-coder-keyboard-layout)
