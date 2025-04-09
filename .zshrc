@@ -30,7 +30,7 @@ ZSH_THEME="robbyrussell"
 # Uncomment one of the following lines to change the auto-update behavior
 # zstyle ':omz:update' mode disabled  # disable automatic updates
 # zstyle ':omz:update' mode auto      # update automatically without asking
-# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
+zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
 # Uncomment the following line to change how often to auto-update (in days).
 # zstyle ':omz:update' frequency 13
@@ -106,17 +106,12 @@ fi
 # the $ZSH_CUSTOM folder, with .zsh extension. Examples:
 # - $ZSH_CUSTOM/aliases.zsh
 # - $ZSH_CUSTOM/macos.zsh
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-alias zshconfig="nvim ~/.zshrc"
-alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias nv='nvim'
 
 md-to-pdf(){
     curl --data-urlencode "markdown=$(cat $1)" --output $2 https://md-to-pdf.fly.dev/
 }
 
+# For a full list of active aliases, run `alias`.
 if [[ -f ~/.alias ]]; then
   . ~/.alias
 fi
