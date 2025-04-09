@@ -1,5 +1,0 @@
-alias android="/opt/android-studio/bin/studio.sh"
-alias tdp032="cd ~/Courses/tdp032"
-alias bat="batcat"
-alias nv='nvim'
-alias dotnv="nvim ~/.dotfiles"
