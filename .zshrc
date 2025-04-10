@@ -120,5 +120,8 @@ if [[ -f ~/.paths ]]; then
   . ~/.paths
 fi
 
+if [[ -f ~/.scripts ]]; then
+  . ~/.scripts
+fi
 
 
