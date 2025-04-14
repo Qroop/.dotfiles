@@ -4,3 +4,5 @@ alias tdp032="cd ~/Courses/tdp032"
 alias bat="batcat"
 alias nv='nvim'
 alias dotnv="nvim ~/.dotfiles"
+alias 16='cd ~/Courses/tdiu16/tdiu16-labs/src/'
+alias dotfiles='cd ~/.dotfiles'
