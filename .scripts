@@ -4,5 +4,14 @@ pintos-run() {
     return 1
   fi
 
-  pintos -p "~/Courses/tdiu16/tdiu16-labs/src/examples/$1" -a "$1" -v -k --fs-disk=2 -- -f -q "run $1"
+  pintos -p ../examples/"$1" -a "$1" -v -k --fs-disk=2 -- -f -q run "$1" 
+}
+
+debugpintos-run() {
+  if [ -z "$1" ]; then
+    echo "Usage: pintos-run <filename>"
+    return 1
+  fi
+
+  debugpintos --fs-disk=2 -p ../examples/"$1" -a "$1" -v -- -f run "$1"
 }
