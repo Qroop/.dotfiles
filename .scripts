@@ -15,3 +15,7 @@ debugpintos-run() {
 
   debugpintos --fs-disk=2 -p ../examples/"$1" -a "$1" -v -- -f run "$1"
 }
+
+login-maria() {
+  mysqlsh -h mariadb.edu.liu.se -u jeswa278
+}

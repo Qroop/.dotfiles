@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/jeswa278/Courses/tdp032/web'
+let g:netrw_dirhist_5='/home/jeswa278/temp'
+let g:netrw_dirhist_4='/home/jeswa278/Courses/tdiu16/tdiu16-labs/src'
 let g:netrw_dirhist_3='/home/jeswa278/Downloads'
 let g:netrw_dirhist_2='/home/jesper/Courses/tdde17/0'
 let g:netrw_dirhist_1='/home/jeswa/Courses/AIDA/web/src'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_0='/home/jeswa/Courses/AIDA/web'
 let g:netrw_dirhist_9='/home/jeswa/Courses/AIDA/web/src'
 let g:netrw_dirhist_8='/home/jeswa/Courses/AIDA/web'
 let g:netrw_dirhist_7='/home/jesper/.oh-my-zsh/custom'
-let g:netrw_dirhist_6='/home/jesper/.oh-my-zsh/custom/plugins'
-let g:netrw_dirhist_5='/home/jesper/.oh-my-zsh/custom/plugins/example'
-let g:netrw_dirhist_4='/home/jesper/.oh-my-zsh/custom/plugins'
