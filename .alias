@@ -6,3 +6,4 @@ alias nv='nvim'
 alias dotnv="nvim ~/.dotfiles"
 alias 16='cd ~/Courses/tdiu16/tdiu16-labs/src/'
 alias dotfiles='cd ~/.dotfiles'
+alias make-pintos='make -j8 && make -j8 -C ../examples &&'
