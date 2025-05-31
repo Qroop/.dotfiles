@@ -16,10 +16,6 @@ set nocompatible
 syntax enable
 filetype plugin indent on
 
-"Colorsheme
-colorscheme nord
-highlight Visual cterm=reverse ctermbg=NONE
-
 " Use spaces instead of hard tabs (important for consistency)
 set expandtab
 
